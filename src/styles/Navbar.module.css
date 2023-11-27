@@ -1,5 +1,5 @@
 .nav {
-  background: rgba(255, 255, 255, 0.132); /* Adjust the alpha channel for transparency */
+  background: rgba(255, 255, 255, 0); /* Adjust the alpha channel for transparency */
   padding: 10px;
   display: flex;
   justify-content: space-between;
@@ -21,4 +21,6 @@
   margin: 0 20px;
 }
 
-
+.logo{
+  padding: 10px;
+}
