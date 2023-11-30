@@ -6,12 +6,18 @@ const Navbar = () => {
   return (
     <div className={styles.nav}>
       <div className={styles.logo}>
-        <img src="/franticL.png" alt="Logo" width={90} height={50} />
+        <img src="/franticLogoV2.png" alt="Logo" width={90} height={50} />
       </div>
-      <div  className={styles.navList}>
-      <Link href="/" className={styles.navLink}>Home</Link>
-      <Link href="#Services" className={styles.navLink}>Services</Link>
-      <Link href="#Contact" className={styles.navLink}>Contact</Link>
+      <div className={styles.navList}>
+        <Link href="/" className={styles.navLink}>
+          Home
+        </Link>
+        <Link href="#Services" className={styles.navLink}>
+          Services
+        </Link>
+        <Link href="#Contact" className={styles.navLink}>
+          Contact
+        </Link>
       </div>
       <div></div>
     </div>
